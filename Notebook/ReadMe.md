@@ -1,10 +1,10 @@
-Campaign Cost-Benefit Analysis Notebook
+#  Campaign Cost-Benefit Analysis Notebook
 
 This Jupyter notebook performs a comprehensive cost-benefit analysis for a digital marketing campaign. It calculates the financial impact of marketing activities like email and SMS delivery, coupon redemptions, design work, and advertising spend.
 
 ---
 
-What This Notebook Does
+##  What This Notebook Does
 
 - Estimates **total campaign cost** based on configurable parameters
 - Breaks down costs into:
@@ -20,7 +20,8 @@ What This Notebook Does
 - Visualizes results with simple bar charts and summaries
 
 ---
-Parameters You Can Modify
+
+##  Parameters You Can Modify
 
 In the first code block, you can change the following values to simulate different marketing scenarios:
 
@@ -32,4 +33,3 @@ discount_per_redemption = 5          # Discount value per coupon
 expected_redemption_rate = 0.10      # Assumed redemption rate (e.g., 10%)
 ad_spend = 750                        # Additional advertising spend
 num_customers = 5000                 # Number of customers targeted
-
